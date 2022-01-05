@@ -1,0 +1,145 @@
+/*  Color palette from https://www.jordanprindledesigns.com/blog/color-palettes
+ENCHANTED COLOR PALETTE
+    Forest (dark green): #11201e
+    Teal (dark): #154042
+    Mint (light): #d5e9dd
+    Pink (light): #f5e5e0
+    Cloud (gray): #d4d6d5
+*/
+
+* {
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    gap: 10px;
+}
+
+.section {
+    width: 60%;
+}
+
+.header {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+h1 {
+    text-align: center;
+    background-color:#11201e;
+    color: whitesmoke;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.introTextContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top: solid thin #154042;
+    border-bottom: solid thin #154042;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.introText {
+    width: 65%;
+    text-align: center;
+    font-size: smaller;
+    letter-spacing: 1px;
+    color: #154042;
+}
+
+.chatContainer {
+    position: relative;
+    order: 0;
+    flex: 1 1 auto;
+    align-self: auto;
+}
+
+#chat {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    position: absolute;
+}
+
+.chatMsg {
+    font-size: smaller;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #f5e5e0;
+    width: 80%;
+    position: relative;
+    float: right;
+}
+
+.answerMsg {
+    font-size: smaller;
+    padding: 5px;
+    border-radius: 3px;
+    background-color:#d5e9dd;
+    width: 80%;
+    position: relative;
+    float: left;
+}
+ 
+.userTime {
+     font-size: 9px;
+     color: #d4d6d5;
+     width: 80%;
+     position: relative;
+     float: right;
+     text-align:right;
+ }
+
+ .botTime {
+    font-size: 9px;
+    color: #d4d6d5;
+    width: 80%;
+    position: relative;
+    float: left;
+ }
+
+
+.chatInput {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    padding-bottom: 30px;
+}
+
+#textInput {
+    border-color:#11201e;
+    resize: none;
+    width: 100%;
+    padding: 0;
+    margin: -2px;
+}
+
+#sendButton {
+    width: 50px;
+    float: right;
+
+}
