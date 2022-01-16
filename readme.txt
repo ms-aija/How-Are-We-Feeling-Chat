@@ -1,1 +1,0 @@
-This is a CodeWorks SW engineering admissions project
