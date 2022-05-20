@@ -4,7 +4,7 @@ The app has a bot like feel that lets you answer a preset list of journaling sty
 
 This is a CodeWorks SW Engineering admissions project.
 
-Try it out on [https://ms-aija.github.io/How-Are-We-Feeling-Chat/](https://ms-aija.github.io/How-Are-We-Feeling-Chat/)
+Try it out on GitHub Pages [here](https://ms-aija.github.io/How-Are-We-Feeling-Chat/)
 
 ### Built with
 * Javascript & JQuery
