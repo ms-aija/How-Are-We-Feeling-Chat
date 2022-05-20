@@ -1,3 +1,11 @@
-# About
+## How-Are-We-Feeling Chat
 
-This is a CodeWorks SW engineering admissions project. The app has a bot like feel that lets you answer some fun prompts from a preset list of questions.
+The app has a bot like feel that lets you answer a preset list of journaling style prompts and questions.
+
+This is a CodeWorks SW Engineering admissions project.
+
+Try it out on [https://ms-aija.github.io/cwChatProject/](https://ms-aija.github.io/cwChatProject/)
+
+### Built with
+* Javascript & JQuery
+* CSS
