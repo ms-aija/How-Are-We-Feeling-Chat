@@ -16,7 +16,7 @@ const questionsSet = [
     'How much of a rebel against your parents are you? Are you making any life choices they strongly disagree with?',
     'Who doesn\'t like lists. How do you rank these in the order of importance at work: status, money, creativity, colleagues, impact?',
     'Are you currently working on changing anything in your life?',
-    'If you weere to write a book, what would it be about?'
+    'If you were to write a book, what would it be about?'
 ];
 
 const lastResponse = "Wow! You're on a roll! I've run out of questions! Come back again tomorrow!' P.S. Can you tell how excited I am based on the number of exclamation marks?"
@@ -29,13 +29,13 @@ let questions = [...questionsSet];
 
 /* Code for user interaction with the page:
     + On click of send  button, creates a variable with user input text
-    + Puts that variale in a new div tag
+    + Puts that variable in a new div tag
     + Appends the div
     + Clears text input area
 */
 const handleInput = () => {
     let $textInput = $("#textInput").val();
-    
+
     let $chatDiv = $("<div class=\"chatMsg\">");
     $("#chat").append($chatDiv);
     $chatDiv.html($textInput);
@@ -44,7 +44,7 @@ const handleInput = () => {
 };
 
 
-/* Code for webpage side of converstation:
+/* Code for webpage side of conversation:
     + On click of send button, create a variable with a random question from the questions list
     + Updates questions list removing question already asked
     + Puts question asked in a new div
@@ -95,7 +95,6 @@ $("#sendButton").on("click", () => {
 });
 
 // Code to let enter trigger click event
-// Source: https://stackoverflow.com/questions/155188/trigger-a-button-click-with-javascript-on-the-enter-key-in-a-text-box
 $("#textInput").keyup(function(event) {
     console.log('triggered enter');
     if (event.keyCode === 13) {
