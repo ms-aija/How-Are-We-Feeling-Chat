@@ -7,5 +7,6 @@ This is a CodeWorks SW Engineering admissions project.
 Try it out on GitHub Pages [here](https://ms-aija.github.io/How-Are-We-Feeling-Chat/)
 
 ### Built with
+* HTML
 * Javascript & JQuery
 * CSS
